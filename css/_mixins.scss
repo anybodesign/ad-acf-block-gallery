@@ -8,6 +8,21 @@ $width-wide: 75em;	 		// @note: 1200px
 $width-xwide: 90em;	 		// @note: 1440px
 
 
+// Visually hide an element (a11y ok)
+
+@mixin a11y-hidden($width: 1px, $height: 1px) {
+	position: absolute;
+	display: block; 
+	width: $width;
+	height: $height;
+	padding: 0;
+	margin: 0;
+	text-indent: 150%;
+	white-space: nowrap;
+	overflow: hidden;	
+}
+
+
 // Mobile First
 
 @mixin rwd($width) {

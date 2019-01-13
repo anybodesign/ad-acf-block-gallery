@@ -73,24 +73,9 @@ add_action( 'admin_notices', 'acfgb_admin_notice' );
 --------------------------------------------- */
 
 
-// Json
+// Fields
 
-add_filter('acf/settings/load_json', 'ad_acfgb_json_load_point');
-
-function ad_acfgb_json_load_point( $paths ) {
-    
-    // remove original path (optional)
-    unset($paths[0]);
-    
-    
-    // append path
-    $paths[] = ACFGB_PATH . '/inc';
-    
-    
-    // return
-    return $paths;
-    
-}
+require_once('inc/acf-fields.php');
 
 
 // Block
@@ -149,12 +134,15 @@ function ad_acfgb_render_callback( $block ) {
 		        <?php endforeach; ?>
 		        
 			</div>
-			<?php endif; ?>							
+			<?php endif; ?>
+			
+			<?php //echo ACFGB_PATH; ?>							
 		
 		</div>
 	</div>
 
-	<?php 
+	<?php // Styles
+		
 		wp_enqueue_style( 
 			'ad-acf-gallery-block', 
 			ACFGB_PATH . '/css/ad-acfgb.css',

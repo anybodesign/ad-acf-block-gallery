@@ -58,6 +58,10 @@
 	&::before {
 		content: none;
 	}
+	
+	.acf-block-gallery-item-6cols & {
+		@include a11y-hidden();
+	}
 }
 
 @include rwd(large) {
@@ -88,6 +92,7 @@
 	}
 	
 	.acf-block-gallery-figure {
+		margin: 0;
 		
 		a:hover,
 		a.focus-visible {

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: AD ACF Gallery Block\n"
-"POT-Creation-Date: 2019-01-13 16:18+0100\n"
-"PO-Revision-Date: 2019-01-13 16:18+0100\n"
+"POT-Creation-Date: 2019-01-13 17:01+0100\n"
+"PO-Revision-Date: 2019-01-13 17:01+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -29,21 +29,46 @@ msgstr ""
 "N’oubliez pas, Bloc Galerie AD ACF nécessite qu’ACF Pro 5.8 ou supérieur "
 "soit installé et activé !"
 
-#: ad-acf-block-gallery.php:105
+#: ad-acf-block-gallery.php:90
 msgid "ACF Gallery"
 msgstr "Galerie ACF"
 
-#: ad-acf-block-gallery.php:106
+#: ad-acf-block-gallery.php:91
 msgid "An alternate gallery block."
 msgstr "Un bloc Galerie alternantif."
 
-#: ad-acf-block-gallery.php:138
+#: ad-acf-block-gallery.php:123
 msgid "Enlarge picture"
 msgstr "Agrandir l'image"
 
 #. Plugin Name of the plugin/theme
+#: inc/acf-fields.php:8
 msgid "AD ACF Gallery Block"
 msgstr "Bloc Galerie AD ACF"
+
+#: inc/acf-fields.php:12
+msgid "Number of columns"
+msgstr "Nombre de colonnes"
+
+#: inc/acf-fields.php:24
+msgid "2 columns"
+msgstr "2 colonnes"
+
+#: inc/acf-fields.php:25
+msgid "3 columns"
+msgstr "3 colonnes"
+
+#: inc/acf-fields.php:26
+msgid "4 columns"
+msgstr "4 colonnes"
+
+#: inc/acf-fields.php:27
+msgid "6 columns"
+msgstr "6 colonnes"
+
+#: inc/acf-fields.php:41
+msgid "Choose pictures"
+msgstr "Choisir des photos"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/anybodesign/ad-acf-block-gallery"
