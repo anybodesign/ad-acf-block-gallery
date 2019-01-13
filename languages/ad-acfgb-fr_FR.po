@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: AD ACF Gallery Block\n"
-"POT-Creation-Date: 2019-01-13 16:14+0100\n"
-"PO-Revision-Date: 2019-01-13 16:14+0100\n"
+"POT-Creation-Date: 2019-01-13 16:18+0100\n"
+"PO-Revision-Date: 2019-01-13 16:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -23,10 +23,10 @@ msgstr ""
 
 #: ad-acf-block-gallery.php:62
 msgid ""
-"Remember, AD ACF Gallery Block need ACF Pro 5.8 or greater to be installed "
+"Remember, AD ACF Block Gallery needs ACF Pro 5.8 or greater to be installed "
 "and activated!"
 msgstr ""
-"Rappelez-vous, AD ACF Gallery Block a besoin qu’ACF Pro 5.8 ou supérieur "
+"N’oubliez pas, Bloc Galerie AD ACF nécessite qu’ACF Pro 5.8 ou supérieur "
 "soit installé et activé !"
 
 #: ad-acf-block-gallery.php:105
@@ -34,7 +34,7 @@ msgid "ACF Gallery"
 msgstr "Galerie ACF"
 
 #: ad-acf-block-gallery.php:106
-msgid "An alternante gallery block."
+msgid "An alternate gallery block."
 msgstr "Un bloc Galerie alternantif."
 
 #: ad-acf-block-gallery.php:138
@@ -43,7 +43,7 @@ msgstr "Agrandir l'image"
 
 #. Plugin Name of the plugin/theme
 msgid "AD ACF Gallery Block"
-msgstr "Bloc de Galerie AD ACF"
+msgstr "Bloc Galerie AD ACF"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/anybodesign/ad-acf-block-gallery"

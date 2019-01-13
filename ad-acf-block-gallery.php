@@ -59,7 +59,7 @@ function acfgb_admin_notice(){
 	if( get_transient( 'acfgb-admin-notice-transient' ) ){
 		?>
 		<div class="notice notice-info is-dismissible">
-			<p><?php _e( 'Remember, AD ACF Gallery Block need ACF Pro 5.8 or greater to be installed and activated!', 'ad-acfgb' ); ?></p>
+			<p><?php _e( 'Remember, AD ACF Block Gallery needs ACF Pro 5.8 or greater to be installed and activated!', 'ad-acfgb' ); ?></p>
 		</div>
 		<?php
 		delete_transient( 'acfgb-admin-notice-transient' );
@@ -103,7 +103,7 @@ function ad_acfgb_acf_init() {
 		acf_register_block(array(
 			'name'				=> 'ad-gallery',
 			'title'				=> __('ACF Gallery'),
-			'description'		=> __('An alternante gallery block.'),
+			'description'		=> __('An alternate gallery block.'),
 			'render_callback'	=> 'ad_acfgb_render_callback',
 			'category'			=> 'common',
 			'icon'				=> 'images-alt2',
