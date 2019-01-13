@@ -135,8 +135,6 @@ function ad_acfgb_render_callback( $block ) {
 		        
 			</div>
 			<?php endif; ?>
-			
-			<?php //echo ACFGB_PATH; ?>							
 		
 		</div>
 	</div>
@@ -151,5 +149,20 @@ function ad_acfgb_render_callback( $block ) {
 			'screen' 
 		);						
 
-
 }
+
+
+/* ------------------------------------------
+// Updater ----------------------------------
+--------------------------------------------- */
+
+
+require 'inc/plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/anybodesign/ad-acf-block-gallery',
+	__FILE__,
+	'ad-acf-block-gallery'
+);
+$myUpdateChecker->setBranch('master');
+
+
