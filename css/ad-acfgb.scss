@@ -35,7 +35,7 @@
 
 .acf-block-gallery-figure {
 	position: relative;
-	margin-bottom: 0;
+	margin: 0;
 	overflow: hidden;
 
 	img {
@@ -47,6 +47,17 @@
 
 }
 .acf-block-gallery-caption  {
+	position: absolute;
+	bottom: 0; 
+	left: 0;
+	width: 100%; 
+	margin: 0;
+	padding: 1rem;
+	background-color: rgba(0,0,0,.75);	
+	color: #fff;
+	text-align: center;
+	transition: .2s ease-in-out;
+	pointer-events: none;
 	
 	&::before {
 		content: none;
@@ -55,35 +66,15 @@
 	.gallery-6cols & {
 		@include a11y-hidden();
 	}
+	.gallery-4cols & {
+		font-size: 75%;
+	}
+}
+.acf-block-gallery-caption-title {
+	margin: 0;
 }
 
 @include rwd(large) {
-	
-	.acf-block-gallery-caption {
-		position: absolute;
-		bottom: 0; 
-		left: 0;
-		width: 100%; 
-		margin: 0;
-		padding: 1rem;
-		background-color: rgba(0,0,0,.75);
-		transition: .2s ease-in-out;
-		
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		color: #fff;
-		text-align: center;
-		pointer-events: none;
-		
-		.gallery-4cols & {
-			font-size: 75%;
-		}
-	}
-	.acf-block-gallery-caption-title {
-		margin: 0;
-	}
 	
 	.acf-block-gallery-figure {
 		margin: 0;
@@ -104,5 +95,4 @@
 			outline: none;
 		}
 	} 
-
 }
