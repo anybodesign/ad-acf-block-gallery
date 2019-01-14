@@ -114,10 +114,10 @@ function ad_acfgb_render_callback( $block ) {
 		<div class="ad-acf-block-container">
 
 			<?php if( $images ): ?>
-			<div class="acf-block-gallery-pictures">
+			<div class="acf-block-gallery-pictures gallery-<?php echo $cols; ?>">
 				
 		        <?php foreach( $images as $image ): ?>
-		        <div class="acf-block-gallery-item-<?php echo $cols; ?>">
+		        <div class="acf-block-gallery-item">
 			        
 			        <figure class="acf-block-gallery-figure"<?php if ( $image['caption'] ) { echo ' role="group"'; } ?>>
 			            <a href="<?php echo $image['url']; ?>" title="<?php _e('Enlarge picture', 'le-chep'); ?>" data-fancybox="images">
