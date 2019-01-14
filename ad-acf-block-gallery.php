@@ -3,7 +3,7 @@
 Plugin Name: AD ACF Gallery Block
 Description: Add an alternate gallery block for your pages and posts. 
 Plugin URI: https://github.com/anybodesign/ad-acf-block-gallery
-Version: 1.0
+Version: 1.1
 Author: Thomas Villain - Anybodesign
 Author URI: https://anybodesign.com/
 License: GPL2
